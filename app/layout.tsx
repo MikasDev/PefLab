@@ -5,6 +5,13 @@ import Nav from '../components/Nav'
 
 const inter = Inter({ subsets: ['latin'] })
 
+ 
+export const metadata: Metadata = {
+  title: 'Treinamento Peflab',
+  description: '...',
+}
+ 
+
 export default function RootLayout({
   children,
 }: {
@@ -12,7 +19,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-br">
-      <div className='gradient'>
+      <div className=''>
         <body className={inter.className}>{children}</body>
       </div>
       

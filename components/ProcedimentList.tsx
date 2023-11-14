@@ -17,7 +17,7 @@ const ProcedimentList = () => {
         </div>
 
         <div className='flex justify-center p-2'>
-            <Link href='/' className='hover:underline'>Medida de Temperatura Estufas</Link>
+            <Link href='/estufa' className='hover:underline'>Medida de Temperatura Estufas</Link>
         </div>
 
         <div className='flex justify-center p-5'>
@@ -30,7 +30,7 @@ const ProcedimentList = () => {
         </div>
 
         <div className="flex justify-center p-2">
-            <Link href='/' className='hover:underline'>Preparo Salmoura</Link>
+            <Link href='/salmoura' className='hover:underline'>Preparo Salmoura</Link>
         </div>
     </div>
   )

@@ -6,6 +6,9 @@ const Nav = () => {
   return (
     <div>
       <div>
+        <head>
+          <link rel="shortcut icon" href="/images/favicon.jpg" type="image/x-icon" />
+        </head>
         <div className='flex justify-center p-4'>
           <Image
             src='/images/logo.jpg'

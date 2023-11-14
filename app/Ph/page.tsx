@@ -22,7 +22,7 @@ const PhHome = () => {
                 <h1 className='flex justify-center text-2xl font-bold p-5'>Medida pH</h1>
             </div>
 
-            <div className='flex justify-start border bg-white rounded p-5'>
+            <div className='flex justify-start border bg-slate-300 rounded-lg p-5'>
                 <ol className='list-decimal'>
                     <li>Conectar o apararelho na tomada;</li>
                     <li>Ligar no botão ON/OFF;</li>
@@ -37,7 +37,7 @@ const PhHome = () => {
                 <h1>Limpeza do Equipamento</h1>
             </div>
 
-            <div className='flex justify-start border bg-white rounded p-5'>
+            <div className='flex justify-start border bg-slate-300 rounded-lg p-5'>
                 <ol className='list-decimal'>
                     <li>Retirar a caneta do fluido;</li>
                     <li>Fazer a higienizaão do eletrodo com água deionizada;</li>

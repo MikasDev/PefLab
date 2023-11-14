@@ -23,7 +23,7 @@ const SilverHome = () => {
                 <h1>Utilização da Maquina</h1>
             </div>
 
-            <div className='flex justify-start border bg-white rounded p-5'>
+            <div className='flex justify-start rounded-lg shadow-lg bg-slate-300  p-5'>
                 <ol className='list-decimal'>
                     <li>Ligar o Silverson L5M-A utilizando o botão localizado atrás do equipamento;</li>
                     <li>Colocar o recipiente com água deionizada abaixo da haste giratória;</li>
@@ -39,7 +39,7 @@ const SilverHome = () => {
                 <h1>Limpeza da maquina</h1>
             </div>
 
-            <div className='flex justify-start border bg-white rounded p-5'>
+            <div className='flex justify-start bg-slate-300 rounded-lg shadow-lg p-5'>
                 <ol className='list-decimal'>
                     <li>Retirar a haste central levantando a jaqueta e com auxílio de uma caneta retirar o pino segurando a haste de metal;</li>
                     <li>Desparafusar a haste de metal dos dois lados;</li>
